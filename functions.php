@@ -54,6 +54,7 @@ add_action('enqueue_block_editor_assets', 'schriftco_enqueue_block_editor_assets
  * Custom Blocks Enqueue
  */
 function schriftco_register_blocks() {
-    register_block_type( get_stylesheet_directory() . '/blocks/wrapper' );
+    $block_path = get_theme_file_path( 'build/blocks/wrapper' );
+    register_block_type( $block_path );
 }
-add_action('init', 'schriftco_register_blocks');
+add_action( 'init', 'schriftco_register_blocks' );
