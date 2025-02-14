@@ -1,0 +1,15 @@
+{
+  "apiVersion": 3,
+  "name": "schriftco/wrapper",
+  "title": "Wrapper Block",
+  "category": "layout",
+  "icon": "admin-generic",
+  "description": "A simple wrapper block.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {},
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

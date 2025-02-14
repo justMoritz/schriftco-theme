@@ -1,0 +1,20 @@
+/*
+Theme Name: Neue Schrift.co Theme
+Theme URI: https://schrift.co
+Description: Theme for schrift.co
+Author: Steph Serif
+Author URI: https://schrift.co
+Template: twentytwentyfive
+Version: 0.1.0--alpha1.3
+*/
+
+
+.sc-overflow-none{
+  overflow: none !important;
+} 
+.sc-white-space-nowrap{
+  white-space: nowrap;
+}
+
+
+
