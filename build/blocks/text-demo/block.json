@@ -1,0 +1,24 @@
+{
+  "apiVersion": 3,
+  "name": "schriftco/text-demo",
+  "title": "Text Demo Block",
+  "category": "widgets",
+  "icon": "editor-alignleft",
+  "description": "A styled textarea to preview a font.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "The quick brown fox jumps over a the lazy dog"
+    },
+    "fontFamily": {
+      "type": "string",
+      "default": "Arial, sans-serif"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.scss",
+  "style": "file:../../build/style-index.css"
+}

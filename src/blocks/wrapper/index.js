@@ -1,8 +1,8 @@
 import { registerBlockType } from '@wordpress/blocks';
 import { useBlockProps, InnerBlocks } from '@wordpress/block-editor';
 
-import './editor.css';
-import './style.css';
+import './editor.scss';
+import './style.scss';
 
 registerBlockType('schriftco/wrapper', {
     edit: () => {
